@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Prompt:wght@200;300;400&display=swap');
+
+body{
+ font-family: 'Prompt', sans-serif;
+}
+
+.warpper{
+  display:flex;
+  flex-direction: column;
+  font-family: 'Prompt', sans-serif;
+}
+
+.panels{
+  background:#fffffff6;
+  min-height:200px;
+  width:fit-content !important;
+  border-radius:3px;
+  overflow:hidden;
+  padding:20px;  
+}
+.panel{
+  display:none;
+  animation: fadein .8s;
+  width: fit-content;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+.panel-title{
+  font-size:1.5em;
+  font-weight:bold
+}
+.radio{
+  display:none;
+}
+#one:checked ~ .panels #one-panel,
+#two:checked ~ .panels #two-panel,
+#three:checked ~ .panels #three-panel{
+  display:block
+}
+
+#one:checked ~ .tabs #one-tab,
+#two:checked ~ .tabs #two-tab,
+#three:checked ~ .tabs #three-tab{
+  background:#fff;
+  color:#000;
+}
+
+.name-Aj-std{
+  text-align: end;
+}
+
+.btn-add-edit{ 
+  background-color: #5C4242;
+  color: rgb(255, 255, 255);
+  font-family: Prompt, sans-serif;
+  text-align: center;
+  width: 10rem;
+  border-radius: 23px;
+  height: 3.5rem;
+  font-size: 20px;
+  box-shadow: 5px 8px 15px #707070;
+}

@@ -1,0 +1,54 @@
+.nav-tabs {
+    border-bottom: 0px solid #fff !important; 
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: #fff;
+    border-color: #fff #fff #fff;
+}
+.headname-th{
+    font-family: 'Prompt', sans-serif;
+}
+.table-name-report{
+    font-family: 'Prompt', sans-serif;
+}
+.report-name{
+    font-family: 'Prompt', sans-serif;
+}
+.table-name-report{
+    font-family: 'Prompt', sans-serif;
+}
+.dashborad-ok{
+    color: #41B949;
+}
+.modal-content { 
+    width: 170% !important;
+    border-radius: 2rem;
+}
+.modal-header{
+    font-family: 'Prompt', sans-serif;
+}
+.btn-report{
+    background-color: #63B0C0;
+    color: #fff;
+}
+.iconcheck-name{
+    color: #41B949;
+}
+
+.iconcheck-times{
+    color: #ee1a1a;
+}
+
+.iconellipsis-name{
+    color: #4971DF;
+}
+.table-bordered{
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    
+}
+
+.itemCart{
+    color: #e91919;
+}

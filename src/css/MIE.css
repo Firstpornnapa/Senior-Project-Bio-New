@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Prompt:wght@200;300;400&display=swap');
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+
+.warpper{
+  display:flex;
+  flex-direction: column;
+  font-family: 'Prompt', sans-serif;
+  margin-left: -6rem;
+}
+
+.tab{
+  cursor: pointer;
+  padding:10px 20px;
+  margin:0px 0px;
+  background:#A8D5C8;
+  display:inline-block;
+  color:#000;
+  border-radius:13px 13px 0px 0px;
+}
+.panels{
+    background:#fffffff6;
+  box-shadow: 1rem 1rem 1rem #3f3d3d48;
+  min-height:200px;
+  width:fit-content !important;
+  border-radius:3px;
+  overflow:hidden;
+  padding:20px;  
+}
+
+.panel{
+  display:none;
+  animation: fadein .8s;
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+.panel-title{
+  font-size:1.5em;
+  font-weight:bold
+}
+.radio{
+  display:none;
+}
+#one:checked ~ .panels #one-panel,
+#two:checked ~ .panels #two-panel,
+#three:checked ~ .panels #three-panel{
+  display:block
+}
+#one:checked ~ .tabs #one-tab,
+#two:checked ~ .tabs #two-tab,
+#three:checked ~ .tabs #three-tab{
+  background:#fff;
+  color:#000;
+  
+}
+.labal-name-mie{
+  text-align: end;
+}
+
+.btn-add-modal{
+  background-color: rgb(30, 110, 102);
+  color: rgb(255, 255, 255);
+  font-family: Prompt, sans-serif;
+  text-align: center;
+  width: 10rem;
+  border-radius: 23px;
+  height: 3.5rem;
+  font-size: 20px;
+  box-shadow: 5px 8px 15px #707070;
+ 
+}
+
+.btn-add-cancal{
+  background-color: #D12E2E;
+  color: rgb(255, 255, 255);
+  font-family: Prompt, sans-serif;
+  text-align: center;
+  width: 10rem;
+  border-radius: 23px;
+  height: 3.5rem;
+  font-size: 20px;
+  box-shadow: 5px 8px 15px #707070;
+}
+.btn-bacode{
+  background-color: rgb(30, 110, 102);
+  color: rgb(255, 255, 255);
+  font-family: Prompt, sans-serif;
+  text-align: center;
+  width: 10rem;
+  border-radius: 23px;
+  height: 3.5rem;
+  font-size: 16px;
+  box-shadow: 5px 8px 15px #707070;
+  
+}
+.btn-del{
+  background-color: #D12E2E;
+  color: rgb(255, 255, 255);
+  font-family: Prompt, sans-serif;
+  text-align: center;
+  width: 10rem;
+  border-radius: 23px;
+  height: 3.5rem;
+  font-size: 16px;
+  box-shadow: 5px 8px 15px #707070;
+}
+
+.btn-edit{
+  background-color: #978F8F;
+  color: rgb(255, 255, 255);
+  font-family: Prompt, sans-serif;
+  text-align: center;
+  width: 10rem;
+  border-radius: 23px;
+  height: 3.5rem;
+  font-size: 16px;
+  box-shadow: 5px 8px 15px #707070;
+
+}
+.btn-add-edit{
+    background-color: #5C4242;
+    color: rgb(255, 255, 255);
+    font-family: Prompt, sans-serif;
+    text-align: center;
+    width: 10rem;
+    border-radius: 23px;
+    height: 3.5rem;
+    font-size: 20px;
+    box-shadow: 5px 8px 15px #707070;
+}
+

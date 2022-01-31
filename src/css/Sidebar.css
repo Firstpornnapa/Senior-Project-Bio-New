@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Prompt:wght@200;300;400&display=swap');
+
+  
+
+.bgback{
+    background-color: #ffff;
+    width: 19rem;
+    height: 750px;
+    margin-right: 76.5rem;
+}
+
+
+.logo-bioimg{
+    margin-left: 50px;
+    width: 35px;
+}
+
+.beetwee{
+    text-align: center;
+    margin-left: 50px;
+}
+
+.welcome{
+    text-align: center;
+    text-shadow: rgb(146, 145, 145) 0.1em 0.1em 0.2em;
+}
+
+.imguser{
+    text-align: center;
+}
+
+.profile_img{
+    margin-top: 15px;
+    padding-top: 0px;
+    left: 90px;
+    top: 10%;
+    width: 100px;  
+}
+.admin-user{
+   font-family: 'Prompt', sans-serif;
+   text-align: center;
+   margin-top: 1rem;
+   font-size: 18px;
+}
+
+.cardsidebar {
+    border: 0px solid rgba(0,0,0,.125) !important;
+}
+
+.card-template{
+    background-color: #06536fcf;
+    border-radius: 10px;
+    margin-top: 13px;
+    height: 490px;
+    font-family: 'Prompt', sans-serif;
+}
+
+.card-template a{
+    color: #fff;
+    display: block;
+    line-height: 33px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.5s;
+    transition-property: background;
+      
+}
+
+
+.logout{
+    text-align: center;
+    color: #fff;
+}
+.hrbee{
+    color: #C4C4C4;
+    
+}
+
+hr:not([size]) {
+    height: 1px;
+    width: 250px;
+    margin-left: 10px;
+}
+
